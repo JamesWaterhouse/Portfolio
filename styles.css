@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    font-family: 'Montserrat';
+    background-color: #EEF0EB;
+    color: #B4B8AB;
+    font-size: 18px;
+}
+.headerContainer {
+    width: 20%;
+    overflow: hidden;
+    margin: auto;
+}
+.logo {
+    max-width: 100%;
+    overflow: none;
+}
+
+nav {
+    height: auto;
+}
+
+.navContainer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    overflow: none;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: none;
+}
+
+li {
+  
+    padding: 0 1rem;
+    transition: ease-in-out 1s;
+    font-size: 1rem;
+    display: inline;
+}
+
+li:hover {
+    background-color: #B4B8AB;
+    color: white;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+.pageContent {
+    padding-top: 1rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.social {
+    width: 6rem;
+    padding: 1rem;
+    background-color: transparent;
+    fill: blue;
+}
+
+.social:hover {
+    fill: blue;
+}
+
+/* .social:hover {
+    background-color: transparent;
+    color: transparent;
+} */
+
+.hidden {
+    display: none;
+}
+
+.sideNav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 35%;
+   
+}
+
+
+
+.social {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.social .img {
+    cursor: pointer;
+}
+
+.home {
+
+    padding: 50px;
+    font-size: 3rem;
+}
