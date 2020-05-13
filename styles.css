@@ -5,16 +5,23 @@
 
 body {
     width: auto;
-    font-family: 'Montserrat';
+    font-family: 'Lato';
     background-color: #EEF0EB;
     color: #B4B8AB;
     font-size: 18px;
+    max-width: 1350px;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
 }
+
 .headerContainer {
-    width: 20%;
+    padding-top: 3rem;
+    width:25rem;
     overflow: hidden;
     margin: auto;
 }
+
 .logo {
     max-width: 100%;
     overflow: none;
@@ -25,7 +32,7 @@ nav {
 }
 
 .navContainer {
-    width: 80%;
+    width: auto;
     margin: auto;
     text-align: center;
     overflow: none;
@@ -54,59 +61,106 @@ li:hover {
 }
 
 .pageContent {
-    padding-top: 1rem;
-    width: 90%;
+    padding-top: 2rem;
+    width: 70%;
     margin: auto;
     text-align: center;
+    animation: fadein 1s ease-in;
     
 }
 
-.social {
-    width: 6rem;
-    padding: 1rem;
-    background-color: transparent;
-    fill: blue;
+.home {
+
 }
 
-.social:hover {
-    fill: blue;
+.contact {
+
 }
 
-/* .social:hover {
-    background-color: transparent;
-    color: transparent;
-} */
+.contact a:link {
+    text-decoration: none;
+    color: #B4B8AB;
+}
+
+.contact a:visited {
+    text-decoration: none;
+    color: #B4B8AB;
+}
+
+.contact .phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img {
+    display: inline-block;
+    height: 2rem;
+    padding-right: 0.5rem;
+}
+
+.contact .email img {
+    padding-right: 1rem;
+}
+
+.projects {
+    min-width: 80%;
+    min-height: 50%;
+    border: 2px solid black;
+}
 
 .hidden {
     display: none;
 }
 
 .sideNav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: auto;
+    width: 10rem;
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    bottom: 0;
     left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 35%;
-   
+    overflow: hidden;
 }
 
-
-
 .social {
-    width: 80%;
+    width: 100%;
+    padding: 1rem;
     margin: auto;
     text-align: center;
 }
 
-.social .img {
+.social img {
     cursor: pointer;
+    width: 100%;
 }
 
-.home {
-
-    padding: 50px;
-    font-size: 3rem;
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.social img:hover {
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
