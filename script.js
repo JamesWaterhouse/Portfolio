@@ -1,4 +1,4 @@
-let pages = document.querySelectorAll('.pageContent');
+let pages = document.querySelectorAll('.page');
 let homeButton = document.querySelector('.homeButton');
 let aboutButton = document.querySelector('.aboutButton');
 let workButton = document.querySelector('.workButton');

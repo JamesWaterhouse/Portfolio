@@ -25,23 +25,72 @@
         </div>
     </nav>
     <section>
-        <div class="home pageContent">
-            <h2>Graduating Soon</h2>
-            <h1>Watch This Space!</h1>
+        <div class="home page">
+          <h1>Page Title</h1>
+            <div class="pageContent">
+              <h2>Graduating Soon</h2>
+              <h2>Watch This Space!</h2>
+            </div>
         </div>
-        <div class="about pageContent hidden"> 
-            <h1>Who am I?</h1>
+        <div class="about page hidden"> 
+          <h1>Who am I?</h1>
+          <div class="pageContent">
             <p>I am a newly graduated full stack developer. My interests are using technology for social good, and meaningful causes. As a career changer, my background is in community hospitality, which has given me a deep rooted sense of community and local society.</p>
+          </div>
         </div>
-        <div class="work pageContent hidden">
+        <div class="work page hidden">
                 <h1>Examples of recent projects</h1>
-                <div class="projects">
-                    
+                <div class="pageContent">
+                    <section class="carousel" aria-label="Gallery">
+                        <ol class="carousel__viewport">
+                          <li id="carousel__slide1"
+                              tabindex="0"
+                              class="carousel__slide">
+                            <div class="carousel__snapper">
+                              <a href="#carousel__slide4"
+                                 class="carousel__prev">Go to last slide</a>
+                              <a href="#carousel__slide2"
+                                 class="carousel__next">Go to next slide</a>
+                            </div>
+                          </li>
+                          <li id="carousel__slide2"
+                              tabindex="0"
+                              class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide1"
+                               class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide3"
+                               class="carousel__next">Go to next slide</a>
+                          </li>
+                          <li id="carousel__slide3"
+                              tabindex="0"
+                              class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide2"
+                               class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide4"
+                               class="carousel__next">Go to next slide</a>
+                          </li>
+                          <li id="carousel__slide4"
+                              tabindex="0"
+                              class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide3"
+                               class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide1"
+                               class="carousel__next">Go to first slide</a>
+                          </li>
+                        </ol>
+                        
+                      </section>
                 </div>
         </div>
-        <div class="contact pageContent hidden">
+        <div class="contact page hidden">
+          <h1>Contact Me!</h1>
+          <div class="pageContent">
             <h1 class="phone"><img src="images/phone.svg" alt="phone"><a href="tel:00447570218622">07570 218622</a></h1>
             <h1 class="email"><img src="images/email.svg" alt="email"><a href="mailto:james.waterhouse307@gmail.com">james.waterhouse307@gmail.com</a></h1>   
+          </div>
         </div>
     </section>
     <div class="sideNav">
