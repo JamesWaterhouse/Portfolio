@@ -1,69 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>James Waterhouse</title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat" type="text/css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" type="text/css">
-  <link rel="stylesheet" href="styles.css" type="text/css">
-  <script src="script.js" defer></script>
-  </head>
-  <body>
-    <header>
-        <div class="headerContainer">
-            <img class="logo" src="images/logo.jpg" alt="james waterhouse logo">
-        </div>
-    </header>
-    <nav>
-        <div class="navContainer">
-            <ul>
-                <li class="homeButton">Home</li>
-                <li class="aboutButton">About</li>
-                <li class="workButton">Work</li>
-                <li class="contactButton">Contact</li>
-            </ul>
-        </div>
-    </nav>
-    <section>
-        <div class="home page">
-          <h1>Page Title</h1>
-            <div class="pageContent">
-              <h2>Graduating Soon</h2>
-              <h2>Watch This Space!</h2>
-            </div>
-        </div>
-        <div class="about page hidden"> 
-          <h1>Who am I?</h1>
-          <div class="pageContent">
-            <p>I am a newly graduated full stack developer. My interests are using technology for social good, and meaningful causes. As a career changer, my background is in community hospitality, which has given me a deep rooted sense of community and local society.</p>
-          </div>
-        </div>
-        <div class="work page hidden">
-                <h1>Examples of recent projects</h1>
-                <div class="pageContent">
-                  <div class="portfolio" id="nmf">
-                    <div class="overlay">
-                      <h3>Estate Agent Website</h3>
-                      <p>description description description description description description description</p>
-                    <button><a href="http://google.com">Click for more information</a></button>
-                    </div>
-                  </div>
-                 
-                </div>
-        </div>
-        <div class="contact page hidden">
-          <h1>Contact Me!</h1>
-          <div class="pageContent">
-            <h1 class="phone"><img src="images/phone.svg" alt="phone"><a href="tel:00447570218622">07570 218622</a></h1>
-            <h1 class="email"><img src="images/email.svg" alt="email"><a href="mailto:james.waterhouse307@gmail.com">james.waterhouse307@gmail.com</a></h1>   
-          </div>
-        </div>
-    </section>
-    <div class="sideNav">
-                <div class="social">
-                    <a href="https://github.com/JamesWaterhouse" target="_blank"><img class="social" src="images/github.svg" alt="github"></a>
-                    <a href="https://www.linkedin.com/in/james-waterhouse-7383861b/" target="_blank"><img class="social" src="images/linkedIn.svg" alt="linked in"></a>
-                </div>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+
+
+<div class="jumbotron">
+  <div class="container">
+    <div class="logo">
+      <img src="images/logo.svg">
     </div>
-  </body>
+  </div>
+</div>
+
+<nav class="navbar">
+  <div class="container-fluid">
+    <div id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
 </html>

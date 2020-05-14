@@ -1,4 +1,43 @@
-* {
+body {
+max-width: 1600px;
+}.logo {
+  max-width: 30%;
+  margin: auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.navbar {
+  margin-top: 0;
+}
+
+#myNavbar {
+  width: 30%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  margin: none;
+  padding: none;
+}
+
+
+
+
+/* .logo {
+  width: 2 rem;
+  max-width: 30%;
+  overflow: none;
+} */
+
+/* * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -22,10 +61,7 @@ body {
     margin: auto;
 }
 
-.logo {
-    max-width: 100%;
-    overflow: none;
-}
+
 
 nav {
     height: auto;
@@ -89,12 +125,14 @@ li:hover {
 
 #nmf {
   background-image: url(images/nmf.png);
+  position: relative;
 }
 
 .overlay {
   position: fixed;
   bottom: 0;
   height: 50%;
+  max-width: 100%;
 }
 
 .home {
@@ -152,7 +190,7 @@ li:hover {
     height: auto;
     width: 10rem;
     position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1;
+    /* z-index: 1;
     bottom: 0;
     left: 0;
     overflow: hidden;
@@ -189,8 +227,5 @@ li:hover {
     animation-timing-function: linear;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-}
-
-
-
+} */
 
