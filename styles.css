@@ -1,3 +1,7 @@
+* {
+  background-color: #EEF0EB;
+}
+
 body {
 max-width: 1600px;
 width: auto;
@@ -17,11 +21,18 @@ font-size: 18px;
 }
 
 .jumbotron {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+  background-color: #EEF0EB;
 }
 
 nav {
   height: auto;
+  background-color: #EEF0EB;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navContainer {
@@ -30,12 +41,14 @@ nav {
   text-align: center;
   overflow: none;
   height: 100%;
+  font-size: 18px;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
   overflow: none;
+  margin-bottom: 0;
 }
 
 li {
@@ -44,6 +57,7 @@ li {
   transition: ease-in-out 1s;
   font-size: 1rem;
   display: inline;
+  font-size: 18px;
 }
 
 li:hover {
@@ -52,6 +66,20 @@ li:hover {
   transition: ease-in-out 1s;
   cursor: pointer;
 }
+
+h3 {
+  color: #153E67;
+}
+
+.about {
+  padding-top: 2rem;
+}
+
+a:link, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
 
 
 
