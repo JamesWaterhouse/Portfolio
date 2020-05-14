@@ -76,7 +76,25 @@ li:hover {
     margin: auto;
     text-align: center;
     animation: fadein 1s ease-in;
-    
+    max-width: 100%;
+}
+
+.portfolio {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 25rem;
+  position: relative;
+}
+
+#nmf {
+  background-image: url(images/nmf.png);
+}
+
+.overlay {
+  position: fixed;
+  bottom: 0;
+  height: 50%;
 }
 
 .home {
