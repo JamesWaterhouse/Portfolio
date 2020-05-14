@@ -1,6 +1,13 @@
 body {
 max-width: 1600px;
-}.logo {
+width: auto;
+font-family: 'Lato';
+background-color: #EEF0EB;
+color: #B4B8AB;
+font-size: 18px;
+}
+
+.logo {
   max-width: 30%;
   margin: auto;
 }
@@ -13,21 +20,38 @@ max-width: 1600px;
   margin-bottom: 0;
 }
 
-.navbar {
-  margin-top: 0;
+nav {
+  height: auto;
 }
 
-#myNavbar {
-  width: 30%;
+.navContainer {
+  width: auto;
   margin: auto;
+  text-align: center;
+  overflow: none;
+  height: 100%;
 }
 
 ul {
   list-style: none;
-  margin: none;
-  padding: none;
+  padding-left: 0;
+  overflow: none;
 }
 
+li {
+
+  padding: 0 1rem;
+  transition: ease-in-out 1s;
+  font-size: 1rem;
+  display: inline;
+}
+
+li:hover {
+  background-color: #B4B8AB;
+  color: white;
+  transition: ease-in-out 1s;
+  cursor: pointer;
+}
 
 
 
