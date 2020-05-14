@@ -80,6 +80,29 @@ a:link, a:visited {
   text-decoration: none;
 }
 
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone img {
+  display: inline-block;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+
+.email img {
+  display: inline-block;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
 
 
 
