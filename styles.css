@@ -9,11 +9,13 @@ font-family: 'Lato';
 background-color: #EEF0EB;
 color: #B4B8AB;
 font-size: 18px;
+margin: auto;
 }
 
 .logo {
   max-width: 30%;
-  margin: auto;
+  margin: 2rem auto;
+
 }
 
 .logo img {
@@ -23,8 +25,8 @@ font-size: 18px;
 .jumbotron {
   margin-bottom: 0px;
   margin-top: 0px;
-  
   background-color: #EEF0EB;
+  padding: 0 2rem;
 }
 
 nav {
@@ -33,6 +35,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1;
+  margin-top: 2rem;
 }
 
 .navContainer {
@@ -69,11 +72,9 @@ li:hover {
 
 h3 {
   color: #153E67;
+  margin-bottom: 2rem;
 }
 
-.about {
-  padding-top: 2rem;
-}
 
 a:link, a:visited {
   color: inherit;
@@ -104,7 +105,40 @@ a:link, a:visited {
   padding-right: 0.5rem;
 }
 
+.social {
+  height: 5rem;
+  width: auto;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
 
+.social a {
+  cursor: pointer;
+  display: inline;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 75%;
+}
+
+/* .social img:hover {
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+} */
 
 /* .logo {
   width: 2 rem;
